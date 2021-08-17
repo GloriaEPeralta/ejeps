@@ -6,12 +6,19 @@ def main():
 
     os.system('clear')
     
-    radio = float(input("Dame el valor del radio de la esfera:"))
-    area = 4 * math.pi * radio ** 2
-    volumen = 4 / 3 * math.pi * math.pow(radio,3)
+    catetoA = float(input("Valor CatetoA:"))
+    catetoB = float(input("Valor CatetoB:"))
+    hipotenusa = math.pow(catetoA,2)+math.pow(catetoB,2)
 
-    print(f"El area de la esfera con radio {radio} es {area} unidades cuadradas")
-    print(f"El volumen de la esfera con radio {radio} es {volumen} unidades cubicas")
+    
+    print(f"El cuadrado de la hipotenusa {hipotenusa} ")
+
+    print(f"Los valores de los catetos son CatetoA {catetoA} CatetoB {catetoB} ")
+    print("LA RAIZ CUADRADA")
+    numero=float(input("Numero"))
+    raizC=math.sqrt(numero)
+    print(f"LA RAIZ CUADRADA DE {numero} es {raizC} ")
+    
 
 if __name__=='__main__':
     main()

@@ -5,13 +5,12 @@ def main():
     #escribe tu código abajo de esta línea
 
     os.system('clear')
-    lado=int(input("Dame el valor del lado del cuadrado:"))
-
-    perimetro = 4 * lado
-    area = math.pow(lado,2)
-
-    print("El perimetro del cuadrado de lado " + str(lado) + " es: " + str(perimetro))
-    print(f"El area del cuadrado de lado {lado} es: {area}")
-
+    print("CALCULO DEL AREA Y PERIMETRO DE UN CUADRADO")
+    print("===========================================")
+    lado=float(input("Dame el lado del cuadrado"))
+    perimetro= 4*lado
+    area=lado**2
+    print("El perimetro de este cuadrado es "+ str(perimetro))
+    print("El area de este cuadrado es "+ str(area))
 if __name__=='__main__':
     main()
