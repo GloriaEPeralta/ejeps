@@ -6,6 +6,5 @@ def main():
     nombre_completo=nombre + " " + apellido_paterno + " " + apellido_materno
     print("Es un gusto conocerte " + nombre_completo)
 
-
 if __name__=='__main__':
     main()
